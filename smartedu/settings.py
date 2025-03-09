@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'smartedu.wsgi.application'
+WSGI_APPLICATION = 'smartedu.wsgi.app'
 
 
 # Database
