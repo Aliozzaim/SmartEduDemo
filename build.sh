@@ -2,7 +2,7 @@
 
 echo "Installing dependencies..."
 pip install -r requirements.txt
-
+pip install Pillow
 echo "Running migrations..."
 python manage.py migrate
 
