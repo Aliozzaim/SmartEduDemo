@@ -1,6 +1,5 @@
 {% load static %}
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +17,7 @@
 <meta name="author" content="">
 
 <!-- Site Icons -->
-<link rel="shortcut icon" href=" {% static 'images/favicon.ico' %}" type="image/x-icon" />
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
 <link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
 
 <!-- Bootstrap CSS -->
@@ -32,19 +31,19 @@
 <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
 <!-- Modernizer for Portfolio -->
 <script src="{% static 'js/modernizer.js' %}"></script>
 <script src="{% static 'js/custom.js' %}"></script>
+
 <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 </head>
 
 <body class="host_version">
-
-
 
     <!-- LOADER -->
     <div id="preloader">
@@ -59,9 +58,12 @@
     <!-- NAVBAR -->
     {% include "partials/_navbar.html" %}
 
-
     {% block content %}
     {% endblock %}
 
     <!-- FOOTER -->
     {% include "partials/_footer.html" %}
+
+</body>
+
+</html>
